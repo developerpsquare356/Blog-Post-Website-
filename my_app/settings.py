@@ -51,6 +51,7 @@ INSTALLED_APPS+=EXTERNAL_APP
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -145,6 +146,7 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="developerpsquare356@gmail.com"
 EMAIL_HOST_PASSWORD="tnkowxxvbalzxdql"
+
 
 
 
