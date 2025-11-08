@@ -27,7 +27,7 @@ SECRET_KEY ="django-insecure-nygvsqjl7pd7&x7pgwr&)v+zxxbi5(*lx5gm=qknt#vcosrvwg"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Developerpsquare_blog_post.onrender.com']
+ALLOWED_HOSTS = ['blog-post-website-07fr.onrender.com','127.0.0.1']
 
 
 
@@ -145,6 +145,7 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="developerpsquare356@gmail.com"
 EMAIL_HOST_PASSWORD="tnkowxxvbalzxdql"
+
 
 
 
