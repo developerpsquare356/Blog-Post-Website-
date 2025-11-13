@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+
 from pathlib import Path
 import os
 from django.conf.global_settings import STATICFILES_DIRS, MEDIA_ROOT, MEDIA_URL, CSRF_TRUSTED_ORIGINS, EMAIL_BACKEND, \
@@ -151,6 +152,7 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="developerpsquare356@gmail.com"
 EMAIL_HOST_PASSWORD="tnkowxxvbalzxdql"
+
 
 
 
